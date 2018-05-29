@@ -1,3 +1,5 @@
 .warning {
-  color: red;
+  padding: 20px;
+  background: mistyrose;
+  border: 1px solid red;
 }
