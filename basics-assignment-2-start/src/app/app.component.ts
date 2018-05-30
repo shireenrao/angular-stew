@@ -7,16 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username = '';
-
-  checkUserNameExist(){
-    if (this.username === ''){
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  clearUsername(){
-    this.username = '';
-  }
 }

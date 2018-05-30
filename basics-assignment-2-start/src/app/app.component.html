@@ -12,5 +12,5 @@
 <p>{{ username }}</p>
 <button 
   class="btn btn-primary"
-  [disabled]="checkUserNameExist()"
-  (click)="clearUsername()">Reset</button>
+  [disabled]="username === ''"
+  (click)="username = ''">Reset</button>
